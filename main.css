@@ -1,0 +1,279 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* NAV RESPONSIVE */
+
+header .responsive-nav {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+    display: none;
+    width: 90vw;
+}
+
+header .responsive-nav .logo {
+    color: #fff;
+}
+
+header .responsive-nav ul {
+    display: flex;
+}
+
+header .responsive-nav ul li {
+    list-style: none;
+    font-size: 14px;
+    margin: 0 5px;
+}
+
+header .responsive-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* NAV DESKTOP */
+
+header .nav {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 110;
+    width: 98.5vw;
+}
+
+header .nav .logo {
+    color: #fff;
+    margin: 40px;
+}
+
+header .nav ul {
+    display: flex;
+    margin: 40px;
+}
+
+header .nav ul li {
+    list-style: none;
+    font-size: 14px;
+    margin: 0 10px;
+}
+
+header .nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* FONDO INICIO */
+
+.inicio {
+    height: 65vh;
+    background-image: url(images/portada1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+/* NUESTRA HISTORIA */
+
+.historia {
+    position: relative;
+    background-color: #0a0a0a;
+    display: flex;
+    align-items: center;
+    z-index: 60;
+}
+
+.historia h2,
+.historia h4,
+.historia p {
+    color: #fff;
+    text-align: center;
+}
+
+.historia .info-cont h4 {
+    font-weight: lighter;
+}
+
+.historia .info-cont {
+    display: flex;
+    margin: 30px;
+}
+
+.historia .data-cont {
+    margin: 15px;
+}
+
+/* MENUS */
+
+.menus {
+    height: 40vh;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 70;
+}
+
+.menus .menus-cont {
+    text-align: center;
+}
+
+.menus .menus-cont h2,
+.menus .menus-cont h4 {
+    color: #fff;
+}
+
+.menus .menus-buttons button {
+    width: 200px;
+    height: 60px;
+    color: #f2f2f2;
+    background: none;
+    border: 1px solid #aaa;
+    padding: 18px;
+    margin: 0 20px;
+}
+
+.menus .menus-buttons button:hover {
+    cursor: pointer;
+}
+
+/* PLATOS DE LA CASA */
+
+.platos-casa {
+    text-align: center;
+    background-color: #0a0a0a;
+    padding: 20px;
+    position: relative;
+    z-index: 80;
+}
+
+.platos-casa h2,
+.platos-casa h4 {
+    color: #fff;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 300px;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.galeria img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.galeria img:nth-child(2) {
+    grid-column-start: span 2;
+}
+
+/* ESTAMOS ESPERANDOTE */
+
+footer {
+    background-color: #000;
+    padding: 20px;
+}
+
+footer .footer1-cont {
+    display: flex;
+    justify-content: center;
+}
+
+footer h2,
+footer h4,
+footer p,
+footer ul li {
+    color: #fff;
+}
+
+footer h2,
+footer h4 {
+    text-align: center;
+}
+
+h4 {
+    font-weight: lighter;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer .horarios {
+    width: 30vw;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer .titulo {
+    display: block;
+    position: relative;
+}
+
+footer .titulo .reserva {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+}
+
+footer .titulo .reserva a {
+    color: #fff;
+    width: 100%;
+}
+
+/* MENU */
+
+.menu {
+    display: block;
+    padding: 20px;
+    background-color: #0a0a0a;
+}
+
+.menu .cont-lista-pizzas {
+    padding: 0;
+}
+
+.menu .cont-lista-pizzas h2,
+.menu .cont-lista-pizzas h4 {
+    text-align: center;
+}
+
+.menu .cont-lista-pizzas h2,
+.menu .cont-lista-pizzas h4,
+.menu .cont-lista-pizzas ul li {
+    margin: 5px auto;
+    color: #fff;
+    list-style: none;
+}
+
+.menu .cont-lista-pizzas ul {
+    position: relative;
+    width: 50%;
+    margin: 20px auto;
+}
+
+.menu .cont-lista-pizzas ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu .cont-lista-pizzas ul li .item {
+}
+
+.menu .cont-lista-pizzas li b {
+    font-size: 12px;
+    font-weight: lighter;
+}
