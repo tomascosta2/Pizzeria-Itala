@@ -13,40 +13,49 @@ body h4 {
 
 header .responsive-nav {
     position: absolute;
-    z-index: 100;
+    z-index: 600;
     display: none;
     width: 90vw;
 }
 
 header .responsive-nav .logo {
     color: #fff;
-    margin: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
-header .responsive-nav ul {
-    display: flex;
-    margin: 40px;
-}
-
-header .responsive-nav ul li {
-    list-style: none;
-    font-size: 14px;
-    margin: 0 5px;
-}
-
-header .responsive-nav ul li a {
+header .responsive-nav #buttonOpenCloseMenu {
+    margin-right: 20px;
+    margin-top: 20px;
     text-decoration: none;
     color: #fff;
 }
 
-header .responsive-nav ul li a b {
+.menu-mobile-closed {
     display: none;
-    font-size: 10px;
-    color: #fff;
 }
 
-header .responsive-nav ul li a:hover b {
-    display: inline;
+#menu-mobile-items {
+    background: #0a0a0a;
+    padding: 20px;
+    position: fixed;
+    width: 95%;
+    z-index: 99;
+}
+
+#menu-mobile-items ul {
+    margin-top: 50px;
+    width: 90%;
+}
+
+#menu-mobile-items ul li {
+    list-style: none;
+}
+
+#menu-mobile-items ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
 }
 
 /* NAV DESKTOP */
@@ -398,6 +407,10 @@ footer .reserva-mobile {
         display: block;
     }
 
+    .menu-mobile-closed {
+        display: none;
+    }
+
     /* MENUS */
 
     .menus {
@@ -408,6 +421,25 @@ footer .reserva-mobile {
     .menus-cont .menus-buttons button {
         display: block;
         margin-top: 15px;
+    }
+
+    /* MENU */
+
+    .menu .cont-menu ul {
+        width: 90%;
+    }
+
+    /* NOSOTROS */
+
+    .filosofia .cont-nosotros {
+        display: block;
+    }
+
+    /* CONTACTANOS */
+
+    iframe {
+        width: 95%;
+        height: 300px;
     }
 
 }
