@@ -249,6 +249,10 @@ footer .titulo .reserva a {
     width: 100%;
 }
 
+footer .reserva-mobile {
+    display: none;
+}
+
 /* MENU */
 
 .menu {
@@ -388,5 +392,71 @@ footer .titulo .reserva a {
 
     header .nav {
         display: none;
+    }
+
+    .historia .info-cont {
+        display: block;
+    }
+
+    /* MENUS */
+
+    .menus {
+        padding: 10px;
+        height: 400px;
+    }
+
+    .menus-cont .menus-buttons button {
+        display: block;
+        margin-top: 15px;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .platos-casa {
+        display: block;
+    }
+
+    .platos-casa .galeria {
+        display: block !important;
+    }
+
+    .platos-casa .galeria img {
+        width: 98%;
+        height: 200px;
+    }
+
+    /* FOOTER */
+
+    footer {
+        display: block;
+    }
+
+    footer .footer1-cont {
+        display: block;
+    }
+
+    footer .footer1-cont a {
+        position: relative;
+    }
+
+    footer .footer1-cont ul {
+        width: 90%;
+    }
+
+    footer .titulo .reserva {
+        display: none;
+    }
+
+    footer .reserva-mobile a {
+        color: #fff;
+        text-align: center;
+    }
+
+    footer .reserva-mobile {
+        display: block;
+        position: relative;
+        text-align: center;
+        margin: 30px;
     }
 }
