@@ -90,6 +90,10 @@ header .nav ul li a {
     color: #fff;
 }
 
+header .nav ul li a:hover {
+    font-weight: bold;
+}
+
 /* FONDO INICIO */
 
 .inicio {
@@ -164,6 +168,7 @@ header .nav ul li a {
 
 .menus .menus-buttons button:hover {
     cursor: pointer;
+    border: 2px solid #fff;
 }
 
 /* PLATOS DE LA CASA */
@@ -239,6 +244,7 @@ footer .horarios {
 
 footer p {
     text-align: center;
+    font-size: 12px;
 }
 
 footer .titulo {
@@ -255,11 +261,16 @@ footer .titulo .reserva {
 
 footer .titulo .reserva a {
     color: #fff;
+    font-size: 15px;
     width: 100%;
 }
 
 footer .reserva-mobile {
     display: none;
+}
+
+footer .reserva-mobile a {
+    font-size: 15px;
 }
 
 /* MENU */
@@ -425,8 +436,12 @@ footer .reserva-mobile {
 
     /* MENU */
 
+    .menu .cont-menu {
+    }
+
     .menu .cont-menu ul {
         width: 90%;
+        margin-left: -20px;
     }
 
     /* NOSOTROS */
