@@ -5,6 +5,10 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+body h4 {
+    font-family: 'Dancing Script', cursive;
+}
+
 /* NAV RESPONSIVE */
 
 header .responsive-nav {
@@ -212,6 +216,8 @@ footer h4 {
 
 h4 {
     font-weight: lighter;
+    position: relative;
+    top: -20px;
 }
 
 footer ul li {
@@ -249,6 +255,10 @@ footer .titulo .reserva a {
     display: block;
     padding: 20px;
     background-color: #0a0a0a;
+}
+
+.menu h4 {
+    top: 0;
 }
 
 .menu .cont-lista-pizzas {
@@ -326,6 +336,10 @@ footer .titulo .reserva a {
     text-align: center;
 }
 
+.cont-contacto h4 {
+    top: 0;
+}
+
 .cont-contacto h2,
 .cont-contacto h4,
 .cont-contacto p,
@@ -343,6 +357,11 @@ footer .titulo .reserva a {
 
 .cont-contacto .cont-contact-info li {
     margin-top: 15px;
+}
+
+.cont-contacto .cont-contact-info li b {
+    font-family:  'Dancing Script', cursive;
+    font-weight: lighter;
 }
 
 /* #map {
