@@ -60,6 +60,11 @@ header .responsive-nav #buttonOpenCloseMenu {
 
 /* NAV DESKTOP */
 
+header .actual-page a {
+    text-decoration: underline #fff .15rem !important;
+    text-underline-offset: .25rem;
+}
+
 header .nav {
     position: absolute;
     display: flex;
@@ -72,6 +77,12 @@ header .nav {
 header .nav .logo {
     color: #fff;
     margin: 40px;
+}
+
+header .nav .logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: larger;
 }
 
 header .nav ul {
@@ -91,7 +102,8 @@ header .nav ul li a {
 }
 
 header .nav ul li a:hover {
-    font-weight: bold;
+    text-decoration: underline #eee .15rem;
+    text-underline-offset: .25rem;
 }
 
 /* FONDO INICIO */
@@ -244,7 +256,8 @@ footer .horarios {
 
 footer p {
     text-align: center;
-    font-size: 12px;
+    font-size: 15px;
+    margin-top: 25px;
 }
 
 footer .titulo {
@@ -261,7 +274,7 @@ footer .titulo .reserva {
 
 footer .titulo .reserva a {
     color: #fff;
-    font-size: 15px;
+    font-size: 17px;
     width: 100%;
 }
 
